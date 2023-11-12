@@ -59,7 +59,7 @@ Dataset filtering was performed based on the following criteria:
 1. Clone the repository
     
     ```powershell
-    git clone "깃허브 주소 넣을 예정"
+    git clone "https://github.com/HG-AISLAB/Heart-Rate-Analysis-for-rPPG-based-Deepfake-Detection.git"
     ```
     
 2. Install ffmpeg, cuda, dlib, cmake, fortran
@@ -74,13 +74,13 @@ Dataset filtering was performed based on the following criteria:
     ```powershell
     pip install -r requirement.txt
     ```
-    
-5. Move the video to the *Dataset* folder according to the *file_list_for_deepfake_Detection.txt*.
-6. Run the *Extract HR features.ipynb.*
+5. Create four directories with the names *Dataset*, *Feature*, *Sorted_feature*, and *t-test_result*
+6. Move the video to the *Dataset* folder according to the *file_list_for_deepfake_Detection.txt*.
+7. Run the *Extract HR features.ipynb.*
     
     Upon running, .xlsx files containing HR features will be stored in the *Feature* folder.
     
-7. Sort the .xlsx files in the *Feature* folder and move them to the *Sorted_feature* folder based on *file_list_for_sorting_features.txt*.
+8. Sort the .xlsx files in the *Feature* folder and move them to the *Sorted_feature* folder based on *file_list_for_sorting_features.txt*.
 8. Run the *T-test.ipynb.*
     
     Upon running, .xlsx files containing the result of t-test will be stored in the *t-test_result* folder.
