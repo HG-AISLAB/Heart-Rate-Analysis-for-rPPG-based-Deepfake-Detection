@@ -86,7 +86,7 @@ Dataset filtering was performed based on the following criteria:
     Upon running, .xlsx files containing the result of t-test will be stored in the *t-test_result* folder.
 
 ## Example
-<img src="img/bpm.jpg" width="30%"/>
+<img src="img/bpm.png"/>
 
 - This image illustrates an example of the calculated HR values, and a detailed demonstration of the extracted heart rate values can be found in the *Extract HR features.ipynb.*
 
