@@ -4,6 +4,12 @@
 
 The official implementation of the research "Towards Robust Deepfake Detection Based on Heartbeat Analysis". This repository includes a list of dataset used in the research and the implementation code which is based on [pyVHR](https://github.com/phuselab/pyVHR)
 
+
+<img src="img/bpm2.png" width="50%"/>
+
+- This image illustrates an example of the calculated HR values, and a detailed demonstration of the extracted heart rate values can be found in the *Extract HR features.ipynb.*
+
+
 ## Dataset
 
 A list of dataset is derived from FF++ (FaceForensics++), an open dataset for deepfake detection research
@@ -84,13 +90,6 @@ Dataset filtering was performed based on the following criteria:
 8. Run the *T-test.ipynb.*
     
     Upon running, .xlsx files containing the result of t-test will be stored in the *t-test_result* folder.
-
-## Example
-<img src="img/bpm2.png" width="50%"/>
-
-- This image illustrates an example of the calculated HR values, and a detailed demonstration of the extracted heart rate values can be found in the *Extract HR features.ipynb.*
-
-
 
 
 
