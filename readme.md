@@ -1,12 +1,12 @@
 # Heart Rate Analysis for rPPG-based Deepfake Detection
 
 # Introduction
-<img src="img/bpm2.png" width="50%"/>
-
-- This image illustrates an example of the calculated HR values, and a detailed demonstration of the extracted heart rate values can be found in the *Extract HR features.ipynb.*
 
 The official implementation of the research "Towards Robust Deepfake Detection Based on Heartbeat Analysis". This repository includes a list of dataset used in the research and the implementation code which is based on [pyVHR](https://github.com/phuselab/pyVHR)
 
+<img src="img/bpm2.png" width="50%"/>
+
+- This image illustrates an example of the calculated HR values, and a detailed demonstration of the extracted heart rate values can be found in the *Extract HR features.ipynb.*
 
 ## Dataset
 
