@@ -11,7 +11,7 @@ The official implementation of the research "Towards Robust Deepfake Detection B
 ## Dataset
 
 A list of dataset is derived from FF++ (FaceForensics++), an open dataset for deepfake detection research.
-Our dataset comprises videos featuring individuals with diverse racial backgrounds, genders, age groups, and hairstyles, from various lighting conditions and environments.
+Our dataset consists of videos containing diverse races, genders, age groups, and hair styles, as well as backgrounds covering different lighting conditions.
 
 
 ## Original Dataset
